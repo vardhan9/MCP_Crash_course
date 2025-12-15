@@ -59,3 +59,7 @@ async def get_alerts(state: str) -> str:
 def echo_resource(message: str) -> str:
     """Echo a message as a resource"""
     return f"Resource echo: {message}"
+
+# Run the server
+if __name__ == "__main__":
+    mcp.run(transport="stdio")

@@ -1,14 +1,9 @@
 {
   "mcpServers": {
     "weather": {
-      "command": "uv",
+      "command": "python",
       "args": [
-        "run",
-        "--with",
-        "mcp[cli]",
-        "mcp",
-        "run",
-        "D:\\Learning_Workspace\\AI\\MCP\\MCP_CRASH_COURSE\\server\\weather.py"
+        "C:\\RaMa\\MedomOy\\Experiments\\MCP_Crash_course\\server\\weather.py"
       ]
     }
   }
